@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ /* Header Section */
+ header{
+    background-image: url(/img/background_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-top: -2px;
+ }
+
+ /* navbar */
+ .navbar-brand{
+     text-transform: uppercase;
+     font-weight: 900;
+     font-size: 25px;
+ }
+.navbar-brand span{
+    color: tomato;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    margin-left: 30px;
+}
+.navbar {   
+    padding-top: 90px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 30px;
+}
+/* Idea Section */
+.idea{
+    
+}
+.idea-text{
+    
+}
+.idea-text h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.idea-text span{
+    color: lightgray;
+}
+.idea-img{
+
+}
+.idea-img img {
+    width: 85%;
+    height: 85%;
+    border-radius: 23px;
+}
+.btn{
+    padding: 7px 29px;
+    background: linear-gradient(to left,#FF736E,#FFB170);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+/* Service Section */
+.service {
+    background-image: url(/img/background_2.png);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-x: -4px;
+    background-position-y: -140px;
+}
+.service h1{
+    text-align: center;
+    font-weight: 600px;
+}
+.service-row{
+    margin-top: 50px;
+}
+.service-col{
+
+}
+.service-card{
+    padding: 9px;
+    border-radius: 27px;
+    border: none;
+    box-shadow: 1px 3px 10px -1px lightgrey;
+    width: 68%;
+}
+.service-card-body{
+
+}
+.service-card-body i{
+    color: tomato;
+    font-size: 50px;
+    margin: 10px 0 30px;
+}
+.service-card-body h6{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.service-card-body p{
+    color: lightgray;
+    font-size: 12px;
+}
+.card-two{
+    background: linear-gradient(170deg,#FF736E,#FFB170);
+}
+.card-two i{
+    color: #fff;
+}
+.card-two h6{
+    color: #fff;
+}
+.card-two p{
+    color: #fff;
+}
+.service-btn{
+    margin-top: 60px;
+}
+
+/* Works Section */
+
+/* Testimonial Section  */
+
+/* Contact Section */
+
+/* Footer Section */
+
+/* Responsive */
+
+/* Small devices (landscape phones, 576px and up) */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        color: tomato;
+        margin-left: 30px;
+    }
+    header {
+        background-image: url(/img/background_1.png);
+        background-size: 136%;
+        background-repeat: no-repeat;
+        background-position-x: -38px;
+        background-position-y: 15px;
+        margin-top: -51px;
+     margin-top: -25px;
+ }
+    .idea-img img {
+        width: 85%;
+        height: 85%;
+        border-radius: 23px;
+        margin-top: 15px;
+    }
+
+.service-card {
+    padding: 9px;
+    border-radius: 27px;
+    border: none;
+    box-shadow: 1px 3px 10px -1px lightgrey;
+    width: 100%;
+    margin-top: 15px;
+}
+.service {
+    background-image: url(/img/background_2.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position-x: -6px;
+    background-position-y: -4px;
+}
+.service h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+}
+}
+@media (min-width: 576px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: tomato;
+        margin-left: 30px;
+    }
+    header {
+        background-image: url(/img/background_1.png);
+        background-size: 136%;
+        background-repeat: no-repeat;
+        background-position-x: -38px;
+        background-position-y: -22px;
+        margin-top: -51px;
+    }
+    .idea-img img {
+        width: 85%;
+        height: 85%;
+        border-radius: 23px;
+        margin-top: 15px;
+    }
+    .service-card {
+        padding: 9px;
+        border-radius: 27px;
+        border: none;
+        box-shadow: 1px 3px 10px -1px lightgrey;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .service {
+        background-image: url(/img/background_2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: -4px;
+        background-position-y: -73px;
+    }
+    .service h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: tomato;
+        margin-left: 30px;
+    } 
+    header {
+        background-image: url(/img/background_1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        margin-top: -2px;
+    }
+    .idea-img img {
+        margin-top: 15px;
+    }
+    .service-card {
+        padding: 9px;
+        border-radius: 27px;
+        border: none;
+        box-shadow: 1px 3px 10px -1px lightgrey;
+        width: 100%;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        margin-left: 30px;
+    }
+    header{
+        background-image: url(/img/background_1.png);
+        background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-x: -4px;
+    background-position-y: -96px;
+     }
+    .service-card {
+        padding: 9px;
+        border-radius: 27px;
+        border: none;
+        box-shadow: 1px 3px 10px -1px lightgrey;
+        width: 81%;
+    }
+    .service {
+        background-image: url(/img/background_2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: -4px;
+        background-position-y: -73px;
+    }
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        margin-left: 30px;
+    }
+    header{
+        background-image: url(/img/background_1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        margin-top: -2px;
+     }
+     .service {
+        background-image: url(/img/background_2.png);
+        background-size: 95%;
+        background-repeat: no-repeat;
+        background-position-x: -4px;
+        background-position-y: -140px;
+    }
+    .service-card {
+        padding: 9px;
+        border-radius: 27px;
+        border: none;
+        box-shadow: 1px 3px 10px -1px lightgrey;
+        width: 68%;
+    }
+    
+    }
+ 
