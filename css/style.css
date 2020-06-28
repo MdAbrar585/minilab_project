@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -61,12 +64,18 @@ body{
 }
 .btn{
     padding: 7px 29px;
-    background: linear-gradient(to left,#FF736E,#FFB170);
+    background-image: linear-gradient(to left,#fa261e, #FF736E,#FFB170);
     border: none;
     border-radius: 3px;
     color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
 }
-
+.btn:hover{
+    background-position: right;
+    font-size: 17px;
+    color: #000;
+}
 
 /* Service Section */
 .service {
@@ -75,7 +84,7 @@ body{
     background-repeat: no-repeat;
     background-position-x: -4px;
     background-position-y: -140px;
-    padding-bottom: 20px;
+    padding: 40px 0 80px;
 }
 .service h1{
     text-align: center;
@@ -129,7 +138,7 @@ body{
 
 /* Works Section */
 .work {
-    padding: 35px 0 50px;
+    padding: 60px 0 70px;
     background-image: url(../img/background_3.png);
     background-position: right;
     background-size: 94% 112%;
@@ -195,7 +204,7 @@ body{
 
 /* Contact Section */
 .contact{
-    padding: 120px 0 120px;
+    padding: 120px 0 180px;
     background-image: url(../img/background_4.png);
     background-size: 100% 104%;
     background-repeat: no-repeat;
@@ -243,8 +252,21 @@ body{
 }
 .page-footer i{
     color: #fff;
-    font-size: 30px;
-    margin-left: 15px;
+    padding: 20px;
+    width: 62px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all .4s;
+}
+.page-footer i:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    color: tomato;
+    transform: rotate(360deg);
+    box-shadow: 2px 2px 24px #fff;
 }
 .page-footer a{
     color: #fff;
@@ -253,6 +275,7 @@ body{
     text-decoration: none;
     color: turquoise;
 }
+
 
 /* Responsive */
 
@@ -319,6 +342,9 @@ body{
         background-repeat: no-repeat;
         background-position-y: 57px;
     }
+    .testimonial-text{
+        margin-top: 25px;
+    }
 
     .justify-content-end-t {
         /* -webkit-box-pack: end!important; */
@@ -352,9 +378,7 @@ body{
         background-repeat: no-repeat;
         
     }
-    .testimonial-text{
-        margin-top: 25px;
-    }
+    
 }
 @media (min-width: 576px) {
     .navbar-light .navbar-nav .nav-link {
@@ -421,6 +445,9 @@ body{
         justify-content: center !important;
         /* justify-content: flex-end!important; */
     }
+    .testimonial-text{
+        margin-top: 25px;
+    }
     .contact input {
         border: none;
         outline: none;
@@ -443,9 +470,7 @@ body{
         background-repeat: no-repeat;
         
     }
-    .testimonial-text{
-        margin-top: 25px;
-    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -490,6 +515,9 @@ body{
         background-repeat: no-repeat;
         background-position-y: -44px;
     }
+    .testimonial-text{
+        margin-top: 200px;
+    }
     .contact input {
         border: none;
         outline: none;
@@ -511,9 +539,7 @@ body{
         background-repeat: no-repeat;
         
     }
-    .testimonial-text{
-        margin-top: 200px;
-    }
+    
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -557,6 +583,9 @@ body{
         background-repeat: no-repeat;
         background-position-y: -44px;
     }
+    .testimonial-text{
+        margin-top: 25px;
+    }
     .contact input {
         border: none;
         outline: none;
@@ -574,9 +603,7 @@ body{
         background-repeat: no-repeat;
         
     }
-    .testimonial-text{
-        margin-top: 25px;
-    }
+    
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -598,7 +625,7 @@ body{
         background-repeat: no-repeat;
         background-position-x: -4px;
         background-position-y: -140px;
-        padding-bottom: 20px;
+        padding: 40px 0 80px;
     }
     .service-card {
         padding: 9px;
@@ -613,12 +640,15 @@ body{
         border-radius: 20px;
     }
     .work {
-        padding: 35px 0 50px;
+        padding: 60px 0 70px;
         background-image: url(../img/background_3.png);
         background-position: right;
         background-size: 94% 112%;
         background-repeat: no-repeat;
         background-position-y: -44px;
+    }
+    .testimonial-text{
+        margin-top: 25px;
     }
     .contact input {
         border: none;
@@ -631,13 +661,11 @@ body{
         border-radius: 20px;
     }
     .contact{
-        padding: 120px 0 120px;
+        padding: 120px 0 180px;
         background-image: url(../img/background_4.png);
         background-size: 100% 104%;
         background-repeat: no-repeat;
         
     }
-    .testimonial-text{
-        margin-top: 25px;
-    }
+    
     }
