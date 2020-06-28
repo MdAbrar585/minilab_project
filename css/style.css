@@ -7,7 +7,7 @@ body{
 }
  /* Header Section */
  header{
-    background-image: url(/img/background_1.png);
+    background-image: url(../img/background_1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -67,7 +67,7 @@ body{
 
 /* Service Section */
 .service {
-    background-image: url(/img/background_2.png);
+    background-image: url(../img/background_2.png);
     background-size: 95%;
     background-repeat: no-repeat;
     background-position-x: -4px;
@@ -141,7 +141,7 @@ body{
         margin-left: 30px;
     }
     header {
-        background-image: url(/img/background_1.png);
+        background-image: url(../img/background_1.png);
         background-size: 136%;
         background-repeat: no-repeat;
         background-position-x: -38px;
@@ -165,7 +165,7 @@ body{
     margin-top: 15px;
 }
 .service {
-    background-image: url(/img/background_2.png);
+    background-image: url(../img/background_2.png);
     background-size: 105%;
     background-repeat: no-repeat;
     background-position-x: -6px;
@@ -183,7 +183,7 @@ body{
         margin-left: 30px;
     }
     header {
-        background-image: url(/img/background_1.png);
+        background-image: url(../img/background_1.png);
         background-size: 136%;
         background-repeat: no-repeat;
         background-position-x: -38px;
@@ -205,7 +205,7 @@ body{
         margin-top: 15px;
     }
     .service {
-        background-image: url(/img/background_2.png);
+        background-image: url(../img/background_2.png);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position-x: -4px;
@@ -225,7 +225,7 @@ body{
         margin-left: 30px;
     } 
     header {
-        background-image: url(/img/background_1.png);
+        background-image: url(../img/background_1.png);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position-x: right;
@@ -250,7 +250,7 @@ body{
         margin-left: 30px;
     }
     header{
-        background-image: url(/img/background_1.png);
+        background-image: url(../img/background_1.png);
         background-size: 95%;
     background-repeat: no-repeat;
     background-position-x: -4px;
@@ -264,7 +264,7 @@ body{
         width: 81%;
     }
     .service {
-        background-image: url(/img/background_2.png);
+        background-image: url(../img/background_2.png);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position-x: -4px;
@@ -280,14 +280,14 @@ body{
         margin-left: 30px;
     }
     header{
-        background-image: url(/img/background_1.png);
+        background-image: url(../img/background_1.png);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position-x: right;
         margin-top: -2px;
      }
      .service {
-        background-image: url(/img/background_2.png);
+        background-image: url(../img/background_2.png);
         background-size: 95%;
         background-repeat: no-repeat;
         background-position-x: -4px;
