@@ -35,6 +35,8 @@ body{
     color: #fff;
     margin-left: 30px;
 }
+
+
 /* Idea Section */
 .idea{
     
@@ -65,6 +67,7 @@ body{
     color: #fff;
 }
 
+
 /* Service Section */
 .service {
     background-image: url(../img/background_2.png);
@@ -72,6 +75,7 @@ body{
     background-repeat: no-repeat;
     background-position-x: -4px;
     background-position-y: -140px;
+    padding-bottom: 20px;
 }
 .service h1{
     text-align: center;
@@ -124,7 +128,32 @@ body{
 }
 
 /* Works Section */
+.work {
+    padding: 35px 0 50px;
+    background-image: url(../img/background_3.png);
+    background-position: right;
+    background-size: 94% 112%;
+    background-repeat: no-repeat;
+    background-position-y: -44px;
+}
+.work-row{
 
+}
+.work-col{
+
+}
+.work-col img{
+    width: 70%;
+    height: 380px;
+    border-radius: 20px;
+}
+.work-text{
+
+}
+.work-text h1{
+    font-weight: bolder;
+    line-height: 60px;
+}
 /* Testimonial Section  */
 
 /* Contact Section */
@@ -147,7 +176,7 @@ body{
         background-position-x: -38px;
         background-position-y: 15px;
         margin-top: -51px;
-     margin-top: -25px;
+        margin-top: -25px;
  }
     .idea-img img {
         width: 85%;
@@ -155,27 +184,48 @@ body{
         border-radius: 23px;
         margin-top: 15px;
     }
+    .service {
+        background-image: url(../img/background_2.png);
+        background-size: 105%;
+        background-repeat: no-repeat;
+        background-position-x: -6px;
+        background-position-y: -4px;
+        padding-bottom: 20px;
+    }
+    .service h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600px;
+    }
 
-.service-card {
-    padding: 9px;
-    border-radius: 27px;
-    border: none;
-    box-shadow: 1px 3px 10px -1px lightgrey;
-    width: 100%;
-    margin-top: 15px;
-}
-.service {
-    background-image: url(../img/background_2.png);
-    background-size: 105%;
-    background-repeat: no-repeat;
-    background-position-x: -6px;
-    background-position-y: -4px;
-}
-.service h1 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600px;
-}
+    .service-card {
+        padding: 9px;
+        border-radius: 27px;
+        border: none;
+        box-shadow: 1px 3px 10px -1px lightgrey;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .work-col img {
+        width: 100%;
+        height: 380px;
+        border-radius: 20px;
+    }
+    .work-text h1 {
+        font-weight: bolder;
+        font-size: 40px;
+        line-height: 55px;
+        margin-top: 20px;
+    }
+    .work {
+        padding: 35px 0 50px;
+        background-image: url(../img/background_3.png);
+        background-position: right;
+        background-size: 108% 65%;
+        background-repeat: no-repeat;
+        background-position-y: 57px;
+    }
+    
 }
 @media (min-width: 576px) {
     .navbar-light .navbar-nav .nav-link {
@@ -210,11 +260,31 @@ body{
         background-repeat: no-repeat;
         background-position-x: -4px;
         background-position-y: -73px;
+        padding-bottom: 20px;
     }
     .service h1 {
         text-align: center;
         font-size: 30px;
         font-weight: 600px;
+    }
+    .work-col img {
+        width: 100%;
+        height: 380px;
+        border-radius: 20px;
+    }
+    .work-text h1 {
+        font-weight: bolder;
+        line-height: 60px;
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .work {
+        padding: 35px 0 50px;
+        background-image: url(../img/background_3.png);
+        background-position: right;
+        background-size: 103% 80%;
+        background-repeat: no-repeat;
+        background-position-y: -44px;
     }
 }
 
@@ -240,6 +310,25 @@ body{
         border: none;
         box-shadow: 1px 3px 10px -1px lightgrey;
         width: 100%;
+    }
+    .work-col img {
+        width: 100%;
+        height: 380px;
+        border-radius: 20px;
+    }
+    .work-text h1 {
+        font-weight: bolder;
+        line-height: 60px;
+        font-size: 49px;
+        margin-top: 20px;
+    }
+    .work {
+        padding: 35px 0 50px;
+        background-image: url(../img/background_3.png);
+        background-position: right;
+        background-size: 103% 112%;
+        background-repeat: no-repeat;
+        background-position-y: -44px;
     }
  }
 
@@ -269,8 +358,21 @@ body{
         background-repeat: no-repeat;
         background-position-x: -4px;
         background-position-y: -73px;
+        padding-bottom: 20px;
     }
-    
+    .work-col img {
+        width: 70%;
+        height: 380px;
+        border-radius: 20px;
+    }
+    .work {
+        padding: 35px 0 50px;
+        background-image: url(../img/background_3.png);
+        background-position: right;
+        background-size: 100% 112%;
+        background-repeat: no-repeat;
+        background-position-y: -44px;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -292,6 +394,7 @@ body{
         background-repeat: no-repeat;
         background-position-x: -4px;
         background-position-y: -140px;
+        padding-bottom: 20px;
     }
     .service-card {
         padding: 9px;
@@ -300,6 +403,17 @@ body{
         box-shadow: 1px 3px 10px -1px lightgrey;
         width: 68%;
     }
-    
+
+    .work-col img {
+        width: 70%;
+        border-radius: 20px;
     }
- 
+    .work {
+        padding: 35px 0 50px;
+        background-image: url(../img/background_3.png);
+        background-position: right;
+        background-size: 94% 112%;
+        background-repeat: no-repeat;
+        background-position-y: -44px;
+    }
+    }
