@@ -47,7 +47,7 @@ body{
     padding: 20px 0 20px;
 }
 .idea-text span{
-    color: lightgray;
+    color: #8b8b8b;
 }
 
 .idea-img img {
@@ -555,7 +555,7 @@ body{
     .work-text h1 {
         font-weight: bolder;
         line-height: 60px;
-        font-size: 49px;
+        font-size: 45px;
         margin-top: 20px;
     }
     .work {
