@@ -178,12 +178,13 @@ body{
 .testimonial img{
     width: 30%;
     text-align: center;
+    margin: 25px;
 }
 .testimonial-text{
     margin-top: 25px;
 }
-.testimonial-col {
-    height: 285px;
+.testimonial-col{
+    height: 350px;
     /* padding-top: 20px; */
 }
 .testimonial-col-2{
@@ -196,7 +197,7 @@ body{
 .testimonial-card {
     width: 100% !important;
     padding: 20px;
-    height: 250px;
+    height: 295px;
     margin-top: 24px;
     border: none;
     box-shadow: 1px 0px 17px lightgrey;
@@ -601,7 +602,14 @@ body{
         background-image: url(../img/background_4.png);
         background-size: 100% 104%;
         background-repeat: no-repeat;
-        
+    }
+    .testimonial-card {
+        width: 100% !important;
+        padding: 20px;
+        height: 321px;
+        margin-top: 24px;
+        border: none;
+        box-shadow: 1px 0px 17px lightgrey;
     }
     
  }
