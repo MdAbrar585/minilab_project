@@ -231,7 +231,7 @@ body{
 }
 .page-footer h1{
  font-weight: 600;
- padding: 25px 0 35px;
+ padding: 60px 0 50px;
 }
 .page-footer span{
     color: #fff;
@@ -336,7 +336,7 @@ body{
         margin-top: 20px;
     }
     .work {
-        padding: 35px 0 50px;
+        padding: 80px 0 20px;
         background-image: url(../img/background_3.png);
         background-position: right;
         background-size: 108% 65%;
@@ -461,7 +461,7 @@ body{
         margin-top: 20px;
     }
     .work {
-        padding: 35px 0 50px;
+        padding: 40px 0 50px;
         background-image: url(../img/background_3.png);
         background-position: right;
         background-size: 103% 80%;
@@ -559,7 +559,7 @@ body{
         margin-top: 20px;
     }
     .work {
-        padding: 35px 0 50px;
+        padding: 60px 0 50px;
         background-image: url(../img/background_3.png);
         background-position: right;
         background-size: 103% 112%;
@@ -646,7 +646,7 @@ body{
         border-radius: 20px;
     }
     .work {
-        padding: 35px 0 50px;
+        padding: 60px 0 50px;
         background-image: url(../img/background_3.png);
         background-position: right;
         background-size: 100% 112%;
