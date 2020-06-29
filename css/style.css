@@ -1,4 +1,4 @@
-*{
+c*{
     margin: 0;
     padding: 0;
 }
@@ -41,22 +41,15 @@ body{
 
 
 /* Idea Section */
-.idea{
-    
-}
-.idea-text{
-    
-}
 .idea-text h1{
     font-size: 40px;
     font-weight: 600;
+    padding: 20px 0 20px;
 }
 .idea-text span{
     color: lightgray;
 }
-.idea-img{
 
-}
 .idea-img img {
     width: 85%;
     height: 85%;
@@ -92,12 +85,10 @@ body{
 .service h1{
     text-align: center;
     font-weight: 700;
+    padding: 20px 0 20px;
 }
 .service-row{
     margin-top: 50px;
-}
-.service-col{
-
 }
 .service-card{
     padding: 9px;
@@ -105,9 +96,6 @@ body{
     border: none;
     box-shadow: 1px 3px 10px -1px lightgrey;
     width: 68%;
-}
-.service-card-body{
-
 }
 .service-card-body i{
     color: tomato;
@@ -141,37 +129,34 @@ body{
 
 /* Works Section */
 .work {
-    padding: 60px 0 70px;
+    padding: 70px 0 90px;
     background-image: url(../img/background_3.png);
     background-position: right;
     background-size: 94% 112%;
     background-repeat: no-repeat;
     background-position-y: -44px;
 }
-.work-row{
-
-}
-.work-col{
-
-}
 .work-col img{
     width: 70%;
     height: 380px;
     border-radius: 20px;
 }
-.work-text{
-
-}
 .work-text h1{
     font-weight: bolder;
     line-height: 60px;
     letter-spacing: 1px;
+    padding: 20px 0 20px;
 }
 
 
 /* Testimonial Section  */
 .testimonial{
     margin: 50px 0 60px;
+    background-image: url(../img/background_5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 160px;
+    padding: 50px 0 50px;
 }
 .testimonial h1{
     text-transform: capitalize;
@@ -289,10 +274,8 @@ body{
 /* Small devices (landscape phones, 576px and up) */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    .navbar-light .navbar-nav .nav-link {
-        color: tomato;
-        margin-left: 30px;
-    }
+    
+    /* Header */
     header {
         background-image: url(../img/background_1.png);
         background-size: 136%;
@@ -301,13 +284,22 @@ body{
         background-position-y: 15px;
         margin-top: -51px;
         margin-top: -25px;
- }
+    }
+
+    /* navbar */
+    .navbar-light .navbar-nav .nav-link {
+        color: tomato;
+        margin-left: 30px;
+    }
+    /* Idea Section */
     .idea-img img {
         width: 85%;
         height: 85%;
         border-radius: 23px;
         margin-top: 15px;
     }
+
+    /* Service Section */
     .service {
         background-image: url(../img/background_2.png);
         background-size: 105%;
@@ -318,7 +310,7 @@ body{
     }
     .service h1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 700;
     }
 
@@ -330,6 +322,8 @@ body{
         width: 100%;
         margin-top: 15px;
     }
+
+    /* Work Section */
     .work-col img {
         width: 100%;
         height: 380px;
@@ -349,24 +343,30 @@ body{
         background-repeat: no-repeat;
         background-position-y: 57px;
     }
+
+    /* Testimonial Section */
+    .testimonial {
+        margin: 50px 0 60px;
+        background-image: url(../img/background_5.png);
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-position-y: 813px;
+    }
     .testimonial-text{
         margin-top: 25px;
     }
     .testimonial h1 {
         text-transform: capitalize;
         font-weight: 700;
-        font-size: 35px;
+        font-size: 30px;
         padding: 50px 0 60px;
     }
 
-    .justify-content-end-t {
-        /* -webkit-box-pack: end!important; */
-        
-        justify-content: center !important;
-        /* justify-content: flex-end!important; */
-    }
+   
+
+    /* Contact Section */
     .contact h1{
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 700;
     }
     .contact input {
@@ -389,15 +389,20 @@ body{
         background-image: url(../img/background_4.png);
         background-size: 100% 104%;
         background-repeat: no-repeat;
+    }
+
+    /* Footer Section */
+    .justify-content-end-t {
+        /* -webkit-box-pack: end!important; */
         
+        justify-content: center !important;
+        /* justify-content: flex-end!important; */
     }
     
 }
 @media (min-width: 576px) {
-    .navbar-light .navbar-nav .nav-link {
-        color: tomato;
-        margin-left: 30px;
-    }
+    
+    /* Header */
     header {
         background-image: url(../img/background_1.png);
         background-size: 136%;
@@ -406,12 +411,21 @@ body{
         background-position-y: -22px;
         margin-top: -51px;
     }
+
+    /* Navbar */
+    .navbar-light .navbar-nav .nav-link {
+        color: tomato;
+        margin-left: 30px;
+    }
+    /* Idea Section */
     .idea-img img {
         width: 85%;
         height: 85%;
         border-radius: 23px;
         margin-top: 15px;
     }
+
+    /* Service Section */
     .service-card {
         padding: 9px;
         border-radius: 27px;
@@ -433,6 +447,8 @@ body{
         font-size: 30px;
         font-weight: 700;
     }
+
+    /* Work Section */
     .work-col img {
         width: 100%;
         height: 380px;
@@ -452,15 +468,20 @@ body{
         background-repeat: no-repeat;
         background-position-y: -44px;
     }
-    .justify-content-end-t {
-        /* -webkit-box-pack: end!important; */
-        
-        justify-content: center !important;
-        /* justify-content: flex-end!important; */
+
+    /* Testimonial Section */
+    .testimonial {
+        margin: 50px 0 60px;
+        background-image: url(../img/background_5.png);
+        background-repeat: no-repeat;
+        background-size: 155%;
+        background-position-y: 710px;
     }
     .testimonial-text{
         margin-top: 25px;
     }
+
+    /* Contact Section */
     .contact input {
         border: none;
         outline: none;
@@ -484,14 +505,19 @@ body{
         
     }
     
+    /* Footer Section */
+    .justify-content-end-t {
+        /* -webkit-box-pack: end!important; */
+        
+        justify-content: center !important;
+        /* justify-content: flex-end!important; */
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .navbar-light .navbar-nav .nav-link {
-        color: tomato;
-        margin-left: 30px;
-    } 
+
+    /* Header */
     header {
         background-image: url(../img/background_1.png);
         background-size: 100%;
@@ -499,9 +525,19 @@ body{
         background-position-x: right;
         margin-top: -2px;
     }
+
+    /* Navbar */
+    .navbar-light .navbar-nav .nav-link {
+        color: tomato;
+        margin-left: 30px;
+    } 
+
+    /* Idea Section */
     .idea-img img {
         margin-top: 15px;
     }
+
+    /* Service Srction */
     .service-card {
         padding: 9px;
         border-radius: 27px;
@@ -509,6 +545,8 @@ body{
         box-shadow: 1px 3px 10px -1px lightgrey;
         width: 100%;
     }
+
+    /* Work Section */
     .work-col img {
         width: 100%;
         height: 380px;
@@ -528,9 +566,20 @@ body{
         background-repeat: no-repeat;
         background-position-y: -44px;
     }
+
+    /* Testimonial Section */
+    .testimonial {
+        margin: 50px 0 60px;
+        background-image: url(../img/background_5.png);
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position-y: 435px;
+    }
     .testimonial-text{
         margin-top: 200px;
     }
+
+    /* Contact Section */
     .contact input {
         border: none;
         outline: none;
@@ -557,10 +606,8 @@ body{
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .navbar-light .navbar-nav .nav-link {
-        color: #fff;
-        margin-left: 30px;
-    }
+
+    /* Header */
     header {
         background-image: url(../img/background_1.png);
         background-size: 95%;
@@ -568,6 +615,14 @@ body{
         background-position-x: 55px;
         background-position-y: -4px;
     }
+
+    /* Navbar */
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        margin-left: 30px;
+    }
+
+    /* Service Section */
     .service-card {
         padding: 9px;
         border-radius: 27px;
@@ -583,6 +638,8 @@ body{
         background-position-y: -73px;
         padding-bottom: 20px;
     }
+
+    /* Work Section */
     .work-col img {
         width: 70%;
         height: 380px;
@@ -596,9 +653,29 @@ body{
         background-repeat: no-repeat;
         background-position-y: -44px;
     }
+
+    /* Testimonial Section */
+    .testimonial {
+        margin: 50px 0 60px;
+        background-image: url(../img/background_5.png);
+        background-repeat: no-repeat;
+        background-size: 104%;
+        background-position-y: 190px;
+        padding: 50px 0 50px;
+    }
     .testimonial-text{
         margin-top: 25px;
     }
+    .testimonial-card {
+        width: 100% !important;
+        padding: 20px;
+        height: 321px;
+        margin-top: 24px;
+        border: none;
+        box-shadow: 1px 0px 17px lightgrey;
+    }
+
+    /* Contact Section */
     .contact input {
         border: none;
         outline: none;
@@ -615,23 +692,14 @@ body{
         background-size: 100% 104%;
         background-repeat: no-repeat;
     }
-    .testimonial-card {
-        width: 100% !important;
-        padding: 20px;
-        height: 321px;
-        margin-top: 24px;
-        border: none;
-        box-shadow: 1px 0px 17px lightgrey;
-    }
+    
     
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .navbar-light .navbar-nav .nav-link {
-        color: #fff;
-        margin-left: 30px;
-    }
+    
+    /* Header */
     header{
         background-image: url(../img/background_1.png);
         background-size: 100%;
@@ -639,6 +707,14 @@ body{
         background-position-x: right;
         margin-top: -2px;
      }
+
+     /* Navbar */
+     .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        margin-left: 30px;
+    }
+
+    /* Service Section */
      .service {
         background-image: url(../img/background_2.png);
         background-size: 95%;
@@ -655,6 +731,7 @@ body{
         width: 68%;
     }
 
+    /* Work Section */
     .work-col img {
         width: 70%;
         border-radius: 20px;
@@ -667,9 +744,21 @@ body{
         background-repeat: no-repeat;
         background-position-y: -44px;
     }
+
+    /* Testimonial Section */
+    .testimonial{      
+        margin: 50px 0 60px;
+        background-image: url(../img/background_5.png);
+        background-repeat: no-repeat;
+        background-size: 113%;
+        background-position-y: 40px;
+        padding: 50px 0 50px;
+    }
     .testimonial-text{
         margin-top: 25px;
     }
+
+    /* Contact Section */
     .contact input {
         border: none;
         outline: none;
